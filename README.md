@@ -1,24 +1,25 @@
 # grunt-kss
 
-[![Build Status](https://secure.travis-ci.org/t32k/grunt-kss.svg?branch=master)](http://travis-ci.org/t32k/grunt-kss) 
-[![NPM version](https://badge.fury.io/js/grunt-kss.svg)](http://badge.fury.io/js/grunt-kss)
-[![Dependency Status](https://david-dm.org/t32k/grunt-kss.svg)](https://david-dm.org/t32k/grunt-kss)
+A clone of the last version of @t32k's grunt-kss before it disappeared.
 
 > KSS styleguide generator for grunt.
 
 ## Getting Started
 This plugin requires Grunt `~0.4.x`
 
-If you haven't used [Grunt](http://gruntjs.com/) before, be sure to check out the [Getting Started](http://gruntjs.com/getting-started) guide, as it explains how to create a [Gruntfile](http://gruntjs.com/sample-gruntfile) as well as install and use Grunt plugins. Once you're familiar with that process, you may install this plugin with this command:
+If you haven't used [Grunt](http://gruntjs.com/) before, be sure to check out the [Getting Started](http://gruntjs.com/getting-started) guide, as it explains how to create a [Gruntfile](http://gruntjs.com/sample-gruntfile) as well as install and use Grunt plugins. Once you're familiar with that process, you can add this to the `devDependences` section of your project's `package.json`: (We have not released this on npm's registry.)
 
-```shell
-npm install grunt-kss --save-dev
+
+```js
+"devDependencies": {
+  "grunt-kss-clone": "git+https://github.com/mintdigital/grunt-kss.git",
+}
 ```
 
 Once the plugin has been installed, it may be enabled inside your Gruntfile with this line of JavaScript:
 
 ```js
-grunt.loadNpmTasks('grunt-kss');
+grunt.loadNpmTasks('grunt-kss-clone');
 ```
 
 ## The "kss" config and an example task
