@@ -4,7 +4,7 @@
   "description": "KSS styleguide generator for grunt from the original grunt-kss.",
   "main": "Gruntfile.js",
   "dependencies": {
-    "kss": "^2.1.0"
+    "kss": "^2.0.1"
   },
   "devDependencies": {
     "grunt": "^0.4.5",
