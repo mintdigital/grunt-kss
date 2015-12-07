@@ -12,7 +12,7 @@ If you haven't used [Grunt](http://gruntjs.com/) before, be sure to check out th
 
 ```js
 "devDependencies": {
-  "grunt-kss-clone": "git+https://github.com/mintdigital/grunt-kss.git",
+  "grunt-kss-clone": "https://github.com/mintdigital/grunt-kss/tarball/master",
 }
 ```
 
